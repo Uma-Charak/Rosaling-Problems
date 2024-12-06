@@ -1,0 +1,9 @@
+The max() function in Python can take the following parameters:
+
+iterable (required): The iterable from which you want to find the maximum value (e.g., list, tuple, dictionary keys, etc.).
+
+key (optional): A function or lambda that determines the value used for comparison. Instead of comparing the elements themselves, max() will compare the result of calling this function on each element. Commonly used with methods like itemgetter, or dictionary .get for custom comparisons.
+
+Example - words = ['apple', 'banana', 'cherry']
+
+longest_word = max(words, key=len) # Returns 'banana'
